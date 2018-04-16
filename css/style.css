@@ -81,7 +81,7 @@ html, body {
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 460px) {
     .menu-links {
         width: 95%;
     }
@@ -89,4 +89,9 @@ html, body {
     .blog-footer {
         font-size: .9em;
     }
+
+    .blog-image {
+        width: 210px;
+    }
+
 }
