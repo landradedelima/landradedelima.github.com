@@ -85,4 +85,8 @@ html, body {
     .menu-links {
         width: 95%;
     }
+
+    .blog-footer {
+        font-size: .9em;
+    }
 }
