@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: #000;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.main_content {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 500px;
+    text-align: center;
+}
+
+.blog-image {
+    width: 250px;
+}
+
+.blog-description {
+    margin: 20px 0;
+    font-style: italic;
+    color: #ffffff73;
+}
+
+.menu-links {
+    position: relative;
+}
+
+.menu-links li {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.menu-links li:last-child {
+    border: none;
+}
+
+.menu-links i {
+    margin: 10px;
+}
+
+.menu-links a {
+    color: #fff;    
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.menu-links a:hover {
+    color: #ffffff73;
+}
+
+.blog-footer {
+    position: absolute;
+    padding: 25px 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
