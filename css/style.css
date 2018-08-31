@@ -28,7 +28,8 @@ html, body {
 }
 
 .blog-description {
-    margin: 20px 0;
+    margin: 20px auto;
+    width: 50%;
     font-style: italic;
     color: #ffffff73;
 }
@@ -65,6 +66,23 @@ html, body {
     color: #ffffff73;
 }
 
+.tip {
+    background: #171717;
+    display: none;
+    position: absolute;
+    top: 53px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.menu-links > li:hover .tip{
+    display: block;
+}
+
+.menu-links li:first-child a{
+    cursor: help;
+}
+
 .blog-footer {
     position: absolute;
     padding: 17px 0;
@@ -84,6 +102,10 @@ html, body {
 @media screen and (max-width: 460px) {
     .menu-links {
         width: 95%;
+    }
+
+    .blog-description {
+        width: 80%;
     }
 
     .blog-footer {
