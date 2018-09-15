@@ -79,10 +79,6 @@ html, body {
     display: block;
 }
 
-.menu-links li:first-child a{
-    cursor: help;
-}
-
 .blog-footer {
     position: absolute;
     padding: 17px 0;
